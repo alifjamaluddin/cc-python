@@ -16,9 +16,9 @@ docker build -t conda-env -f Dockerfile.env .
 
 ```bash
 # for conda basic
-docker run --rm --it  conda-base
+docker run --rm -it  conda-base
 # for conda using environment.yaml
-docker run --rm --it  conda-env
+docker run --rm -it  conda-env
 ```
 
 ## Generate environment.yaml
