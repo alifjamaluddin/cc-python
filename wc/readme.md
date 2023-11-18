@@ -55,6 +55,5 @@ docker build -t ccwc -f ../zero/Dockerfile.basic .
 Run example
 
 ```bash
-# docker run --rm -it  ccwc test.txt
 docker run --rm -v ${PWD}:/data ccwc /data/src/test.txt
 ```
